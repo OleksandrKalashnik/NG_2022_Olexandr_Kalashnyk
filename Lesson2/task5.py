@@ -1,8 +1,0 @@
-print("Enter a comma-separated list: ")
-a = list(map(int, input().split(',')))
-print (max(a))
-print (min(a))
-suma = (sum(a))
-suma = suma - (max(a))
-suma = suma - (min(a))
-print (suma)
