@@ -1,5 +1,0 @@
-input("Введите сфою стороку так:(Первое, второе, ...) нажмите Enter чтобы продолжить.")
-stroka = str(input("Ваша строка: "))
-gotovo = stroka.split(sep=", ")
-gotovo = list(dict.fromkeys(gotovo))
-print(str(gotovo))
